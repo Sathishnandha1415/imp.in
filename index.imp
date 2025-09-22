@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Addition</title>
+    <script>
+        // Function to perform addition
+        function addNumbers() {
+            var result = 2 + 2;
+            document.getElementById('result').innerText = "2 + 2 = " + result;
+        }
+    </script>
+</head>
+<body onload="addNumbers()">
+    <h1>Simple Addition</h1>
+    <p id="result"></p>
+</body>
+</html>
